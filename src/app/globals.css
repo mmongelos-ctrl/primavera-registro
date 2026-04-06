@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #f5f0eb;
+  margin: 0;
+}
+
+/* Smooth scroll on mobile */
+* { -webkit-tap-highlight-color: transparent; }
+input, select { font-size: 16px !important; } /* prevents zoom on iOS */
