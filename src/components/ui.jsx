@@ -1,4 +1,4 @@
-xport function Card({ children, className = "", style }) {
+export function Card({ children, className = "", style }) {
   return (
     <div className={`bg-white rounded-xl p-4 mb-2.5 shadow-sm ${className}`} style={style}>
       {children}
